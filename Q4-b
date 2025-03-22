@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+    void calculateHomeValue()
+   {
+    int popularity;
+    int size;
+
+    printf("Enter popularity: ");
+    scanf("%d", &popularity);
+
+    printf("Enter size: ");
+    scanf("%d", &size);
+
+    int homeValue = (popularity * popularity * popularity) + (size * size);
+    printf("Home value is: %d\n", homeValue);
+   }
+
+    int main() {
+    calculateHomeValue();
+    return 0;
+}
