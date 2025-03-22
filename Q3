@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int popularity;
+    float size;
+    float homeValue;
+    printf("Enter popularity:");
+    scanf("%d",&popularity);
+    printf("Enter size:");
+    scanf("%f",&size);
+    homeValue=(popularity*popularity*popularity)+(size*size);
+    printf("Home value is:%f",home);
+    return 0;
+}
