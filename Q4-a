@@ -1,0 +1,20 @@
+int computeHomeValue(int popularity, int size)
+   {
+    return (popularity * popularity * popularity) + (size * size);
+   }
+
+int main() {
+    int popularity;
+    int size;
+
+    printf("Enter popularity: ");
+    scanf("%d", &popularity);
+
+    printf("Enter size: ");
+    scanf("%d", &size);
+
+    int homeValue = computeHomeValue(popularity, size);
+    printf("Home value is: %d", homeValue);
+
+    return 0;
+}
